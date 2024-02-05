@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+/* selecteurs de type */
+html {
+    font-size: 17px;
+    /* correspond à 1 rem*/
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    /* composition d'image de fond*/
+    /*
+    background-color: #ddd;
+    background-image: url("../images/img-carre.jpg") ,  url("../img/header.jpg");
+    background-repeat: repeat, no-repeat;
+    background-position: 50px 50px , 50% 0;
+    background-attachment: fixed, scroll ;*/
+
+    /*background-size: 100%;  responsive  */
+    background: #ddd;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Caveat', cursive;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+hr {
+    margin: 30px 10px
+}
+
+/* images responsive */
+img {
+    width: 100%;
+    height: auto;
+}
+
+.gabarit {
+    /**responsive 80% de la dimension du conteneur */
+    margin: auto;
+}
+
+.align-horiz {
+    display: flex;
+    /* default row | no-wrap */
+}
+
+.espace {
+    justify-content: space-between;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+main section {
+    margin-bottom: 10vh;
+    /* unite vh % de la hauteur du contenu du site*/
+}
+
+aside {
+    width: 20%;
+    padding: 0 15px;
+}
+
+article {
+    padding-top: 30px;
+}
+
+article img {
+    padding-right: 20px;
+}
+
+
+.fond-gris {
+    background-color: burlywood;
+}
+
+header div:first-of-type {
+    justify-content: space-between;
+}
+
+header li {
+    margin: 15px;
+}
